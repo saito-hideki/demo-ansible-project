@@ -1,0 +1,7 @@
+---
+- hosts: all
+  gather_facts: false
+  vars:
+    msg: 'Hello, Ansible!'
+  tasks:
+    - debug: var=msg
