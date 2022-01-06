@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  gather_facts: false
+
+  vars:
+    fail_flag: true
+
+  tasks:
+    - fail:
+        msg: 'This task should be failed.'
+      when: fail_flag
