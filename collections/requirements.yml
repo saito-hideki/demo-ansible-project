@@ -1,4 +1,6 @@
 ---
 collections:
+  - ansible.posix
+  - amazon.aws
   - cisco.ios
   - community.general
