@@ -1,0 +1,28 @@
+ansible-navigator:
+  execution-environment:
+    enabled: True
+    container-engine: podman
+    image: ee-ansible-v5:5.1.0
+
+  ansible:
+    config: ./ansible.cfg
+    inventories:
+      - ./inventory/hosts.ini
+
+  ansible-runner:
+    artifact-dir: ./runner
+    rotate-artifacts-count: 10
+    timeout: 300
+
+  logging:
+    level: critical
+    append: True
+    file: ./logs/ansible-navigator.log
+
+  playbook-artifact:
+    enable: True
+    save-as: ./artifacts/{playbook_name}-artifact-{ts_utc}.json
+
+  editor:
+    command: emacs -nw {filename}
+    console: true

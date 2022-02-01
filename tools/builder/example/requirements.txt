@@ -1,0 +1,5 @@
+ansible-core == 2.12.1
+ansible == 5.1.0
+awxkit  # for awx.awx collections
+python-dateutil >= 2.7.0  # for awx.awx.collections
+pytz  # for awx.awx collections
