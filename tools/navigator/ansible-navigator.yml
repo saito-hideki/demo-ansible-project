@@ -3,6 +3,7 @@ ansible-navigator:
     enabled: True
     container-engine: podman
     image: ee-ansible-v5:5.1.0
+    pull-policy: missing
 
   ansible:
     config: ./ansible.cfg
@@ -16,7 +17,7 @@ ansible-navigator:
 
   logging:
     level: critical
-    append: True
+    append: false
     file: ./logs/ansible-navigator.log
 
   playbook-artifact:
