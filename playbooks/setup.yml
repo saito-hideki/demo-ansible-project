@@ -1,0 +1,10 @@
+---
+- hosts: all
+  gather_facts: false
+
+  tasks:
+    - ansible.builtin.setup:
+        gather_subset: '{{ subset | default(["all"]) }}'
+      register: result
+    - debug:
+        var: result
