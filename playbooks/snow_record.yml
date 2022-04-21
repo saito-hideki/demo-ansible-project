@@ -1,0 +1,17 @@
+# This example is from https://galaxy.ansible.com/servicenow/servicenow
+---
+- name: Using ServiceNow Collection
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+  - name: Create an incident
+    servicenow.servicenow.snow_record:
+      username: ansible_test
+      password: my_password
+      instance: dev99999
+      state: present
+      data:
+        short_description: "This is a test incident opened by Ansible"
+        severity: 3
+        priority: 2
