@@ -13,3 +13,5 @@ collections:
   version: 4.5.0
 - name: awx.awx
   version: 20.0.1
+- name: servicenow.servicenow
+  version: 1.0.6
