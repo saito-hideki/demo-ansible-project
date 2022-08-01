@@ -1,8 +1,9 @@
 collections:
 - name: ansible.posix
-- name: amazon.aws
-- name: cisco.ios
-- name: ansible.netcommon
-- name: ansible.utils
-- name: servicenow.itsm
-- name: ansible.controller
+- name: community.general
+#- name: amazon.aws
+#- name: cisco.ios
+#- name: ansible.netcommon
+#- name: ansible.utils
+#- name: servicenow.itsm
+#- name: ansible.controller
