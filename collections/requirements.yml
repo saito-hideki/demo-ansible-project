@@ -1,7 +1,6 @@
 collections:
 - name: ansible.posix
 - name: community.general
-  version: 4.4.0
 #- name: amazon.aws
 #- name: cisco.ios
 #- name: ansible.netcommon
