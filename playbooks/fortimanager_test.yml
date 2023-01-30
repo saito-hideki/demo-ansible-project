@@ -4,4 +4,5 @@
 
   tasks:
     - fortinet.fortimanager.fmgr_fact:
-        facts: system_interface
+        facts:
+          selector: 'pkg_firewall_policy'
