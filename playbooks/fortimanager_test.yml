@@ -4,3 +4,4 @@
 
   tasks:
     - fortinet.fortimanager.fmgr_fact:
+        facts: system_interface
