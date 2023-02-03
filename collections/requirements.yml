@@ -6,5 +6,5 @@ collections:
 #- name: cisco.ios
 #- name: ansible.netcommon
 #- name: ansible.utils
-#- name: servicenow.itsm
+- name: servicenow.itsm
 #- name: ansible.controller
