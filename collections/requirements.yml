@@ -1,10 +1,13 @@
 collections:
+- name: awx.awx
 - name: ansible.posix
 - name: community.general
-- name: fortinet.fortimanager
+- name: redhat_cop.controller_configuration
+- name: edhat_cop.ah_configuration
+#- name: fortinet.fortimanager
 #- name: amazon.aws
 #- name: cisco.ios
 #- name: ansible.netcommon
 #- name: ansible.utils
-- name: servicenow.itsm
+#- name: servicenow.itsm
 #- name: ansible.controller
