@@ -1,9 +1,9 @@
 collections:
-- name: awx.awx
-- name: ansible.posix
+#- name: awx.awx
+#- name: ansible.posix
 - name: community.general
-- name: redhat_cop.controller_configuration
-- name: edhat_cop.ah_configuration
+#- name: redhat_cop.controller_configuration
+#- name: redhat_cop.ah_configuration
 #- name: fortinet.fortimanager
 #- name: amazon.aws
 #- name: cisco.ios
