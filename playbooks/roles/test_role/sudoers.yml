@@ -1,0 +1,8 @@
+- name: Update sudoers
+  community.general.sudoers:
+    name: antogx_sudo_access
+    state: present
+    user: redhat
+    runas: root
+    commands: ALL
+    nopassword: yes
