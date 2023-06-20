@@ -6,5 +6,5 @@
   - debug:
       msg: "Test"
   - include_role:
-      name: rhel8_soe
+      name: test_role
 
