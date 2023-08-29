@@ -11,3 +11,4 @@ collections:
 #- name: ansible.utils
 #- name: servicenow.itsm
 #- name: ansible.controller
+- name: redhat.rhel_system_roles
