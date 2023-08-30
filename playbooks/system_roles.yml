@@ -3,5 +3,7 @@
   gather_facts: false
 
   roles:
-    - role: redhat.rhel_system_roles.crypto_policies
-    - role: redhat.rhel_system_roles.network
+    - role: rhel_system_roles.crypto_policies
+    - role: rhel_system_roles.network
+    #- role: redhat.rhel_system_roles.crypto_policies
+    #- role: redhat.rhel_system_roles.network
