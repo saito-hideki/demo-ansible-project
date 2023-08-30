@@ -1,0 +1,7 @@
+---
+- hosts: all
+  gather_facts: false
+
+  roles:
+    - role: redhat.rhel_system_roles.crypto_policies
+    - role: redhat.rhel_system_roles.network
