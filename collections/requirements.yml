@@ -1,7 +1,7 @@
 collections:
 #- name: awx.awx
 - name: ansible.posix
-- name: community.general
+#- name: community.general
 #- name: redhat_cop.controller_configuration
 #- name: redhat_cop.ah_configuration
 #- name: fortinet.fortimanager
