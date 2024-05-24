@@ -3,4 +3,4 @@
   gather_facts: false
 
   roles:
-    - organizations
+    - name: test_role
