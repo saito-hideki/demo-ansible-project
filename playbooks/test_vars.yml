@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - ansible.builtin.include_vars:
+        file: vars/main.yml
+    - ansible.builtin.debug:
+        message: "{{ message }}"
