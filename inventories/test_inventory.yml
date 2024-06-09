@@ -1,0 +1,23 @@
+---
+all:
+  children:
+    env1:
+      children:
+        group_A:
+          hosts:
+            server200.example.com:
+            server201.example.com:
+        group_B:
+          hosts:
+            server210.example.com:
+            server211.example.com:         
+    env2:
+      children:
+        group_C:
+          hosts:
+            server300.example.com:
+            server301.example.com:
+        group_D:
+          hosts:
+            server310.example.com:
+            server311.example.com:
