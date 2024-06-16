@@ -1,0 +1,13 @@
+[server_group_a]
+server0.example.com ={}
+server1.example.com ={}
+server2.example.com ={}
+
+[server_group_b]
+server3.example.com ={}
+server4.example.com ={}
+server5.example.com ={}
+
+
+[all.vars]
+"ansible_connection" = "local"
