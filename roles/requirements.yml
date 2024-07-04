@@ -1,6 +1,0 @@
----
-roles:
-#  - name: ansible-role-test
-#    #src: https://github.com/saito-hideki/ansible-role-test.git
-#    src: git@github.com:saito-hideki/ansible-role-test.git
-#    scm: git
